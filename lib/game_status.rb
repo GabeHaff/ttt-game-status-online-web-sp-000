@@ -38,7 +38,7 @@ def won?(board)
   }
   return false
 end
-def full(board)
+def full?(board)
 if board.all? {|token|token== " "|| token=nil}
 return true 
 else return false 
