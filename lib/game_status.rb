@@ -29,5 +29,7 @@ def won?(board)
     pos_2=board(win_index_2)
     if pos_0=="X" && pos_1=="X" && pos_2 =="X"
       return win_comb
+      elsif pos_0 =="O" && pos_1=="O" && pos_2=="O"
+      return win_comb 
 end 
 end 
