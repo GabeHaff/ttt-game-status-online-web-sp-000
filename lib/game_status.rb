@@ -65,9 +65,10 @@ def over?(board)
 end 
 def winner(board) 
   
-    if won?(board){|token|token== "O"||token|token=="X"}
-    return "O" || "X"
-  
+    if won?(board){|token|token== "O"}
+    return "O" 
+    elsif won?(board){|token|token=="X"}
+  return "X"
   else return nil 
   end 
 end 
