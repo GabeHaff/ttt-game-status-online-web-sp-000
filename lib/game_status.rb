@@ -67,7 +67,7 @@ def winner(board)
   
     if won?(board){|token|token== "O"}
     return "O"
-    elsif won?(board){|token|token!="O"}
+    elsif won?(board){|token|token!=="O"}
     return "X"
   else return nil 
   end 
