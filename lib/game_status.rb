@@ -25,9 +25,9 @@ def won?(board)
     win_index_1=win_comb[1]
     win_index_2=win_comb[2]
     
-    pos_0=board[win_index_0]
-    pos_1=board[win_index_1]
-    pos_2=board[win_index_2]
+    pos_0 = board[win_index_0]
+    pos_1 = board[win_index_1]
+    pos_2 = board[win_index_2]
     
     if pos_0=="X" && pos_1=="X" && pos_2=="X"
       return win_comb
