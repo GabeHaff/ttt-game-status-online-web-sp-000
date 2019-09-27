@@ -40,5 +40,7 @@ def won?(board)
 end
 def full(board)
 board.any? {|token|token== " "|| token=nil}
+return true 
+else return false 
 
 end 
