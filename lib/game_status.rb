@@ -21,6 +21,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def won?(board)
   WIN_COMBINATIONS.each do |win_comb|
-    
+    win_index=win_comb
 end 
 end 
