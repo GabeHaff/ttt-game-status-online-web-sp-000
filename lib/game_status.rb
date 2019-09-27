@@ -39,6 +39,6 @@ def won?(board)
   return false
 end
 def full(board)
-board.none?{token|token== " "|| token=nil}
+board.none?{|token|token== " "|| token=nil}
 
 end 
