@@ -21,11 +21,11 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def won?(board)
   WIN_COMBINATIONS.each  |win_comb|
-      win_index_0 = win_comb[0]
+  win_index_0 = win_comb[0]
    win_index_1 = win_comb[1]
     win_index_2 = win_comb[2]
 
-     pos_1 = board[win_index_0]
+    pos_1 = board[win_index_0]
     pos_2 = board[win_index_1]
     pos_3 = board[win_index_2]
 
