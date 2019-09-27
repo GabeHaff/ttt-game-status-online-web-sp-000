@@ -39,6 +39,6 @@ def won?(board)
   return false
 end
 def full(board)
-
+board{
   return true 
 end 
