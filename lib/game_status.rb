@@ -20,7 +20,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
 def won?(board)
-  WIN_COMBINATIONS.each|win_comb|
+  WIN_COMBINATIONS.each {|win_comb|
  
     win_index_1 = win_comb[0]
     win_index_2 = win_comb[1]
@@ -34,6 +34,7 @@ def won?(board)
       return win_comb
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_comb
+  }
     end
   return nil
 end
